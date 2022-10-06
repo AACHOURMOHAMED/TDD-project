@@ -1,5 +1,6 @@
 class Solver
   def self.factorial(num)
+    raise 'the number should not be negative' if num.negative?
     return 1 if num.zero?
 
     (1..num).reduce(:*)

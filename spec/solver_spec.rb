@@ -19,6 +19,9 @@ describe Solver do
   it 'should return 120 for 5' do
     expect(Solver.factorial(5)).to eq(120)
   end
+  it 'nagative number should raise exception' do
+    expect { Solver.factorial(-10) }.to raise_error('the number should not be negative')
+  end
 
   it 'should return 1 for 1' do
     expect(Solver.reverse(1)).to eq(1)
