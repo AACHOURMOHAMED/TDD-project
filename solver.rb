@@ -1,8 +1,8 @@
 class Solver
   def self.factorial(num)
-    return 1 if num.zero?
+    return 1 if num <= 1
 
-    (1..num).reduce(:*)
+    num * factorial(num - 1)
   end
 
   # add reverse method

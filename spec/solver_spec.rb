@@ -19,6 +19,15 @@ describe Solver do
   it 'should return 120 for 5' do
     expect(Solver.factorial(5)).to eq(120)
   end
+  it 'should return 1 for -1' do
+    expect(Solver.factorial(-1)).to eq(1)
+  end
+  it 'should return 1 for -2' do
+    expect(Solver.factorial(-2)).to eq(1)
+  end
+  it 'should return 1 for -3' do
+    expect(Solver.factorial(-3)).to eq(1)
+  end
 
   it 'should return 1 for 1' do
     expect(Solver.reverse(1)).to eq(1)
