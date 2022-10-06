@@ -20,9 +20,6 @@ describe Solver do
     expect(Solver.factorial(5)).to eq(120)
   end
 
-
-
-
   it 'should return 1 for 1' do
     expect(Solver.reverse(1)).to eq(1)
   end
@@ -36,71 +33,70 @@ describe Solver do
     expect(Solver.reverse(4321)).to eq(1234)
   end
   it 'should return 12345 for 54321' do
-    expect(Solver.reverse(54321)).to eq(12345)
+    expect(Solver.reverse(54_321)).to eq(12_345)
   end
-
 
   it 'should return 1 for 1' do
-    expect(Solver.FizzBuzz(1)).to eq(1)
+    expect(Solver.fizz_buzz(1)).to eq(1)
   end
   it 'should return 2 for 2' do
-    expect(Solver.FizzBuzz(2)).to eq(2)
+    expect(Solver.fizz_buzz(2)).to eq(2)
   end
   it 'should return Fizz for 3' do
-    expect(Solver.FizzBuzz(3)).to eq('Fizz')
+    expect(Solver.fizz_buzz(3)).to eq('Fizz')
   end
   it 'should return 4 for 4' do
-    expect(Solver.FizzBuzz(4)).to eq(4)
+    expect(Solver.fizz_buzz(4)).to eq(4)
   end
   it 'should return Buzz for 5' do
-    expect(Solver.FizzBuzz(5)).to eq('Buzz')
+    expect(Solver.fizz_buzz(5)).to eq('Buzz')
   end
   it 'should return Fizz for 6' do
-    expect(Solver.FizzBuzz(6)).to eq('Fizz')
+    expect(Solver.fizz_buzz(6)).to eq('Fizz')
   end
   it 'should return 7 for 7' do
-    expect(Solver.FizzBuzz(7)).to eq(7)
+    expect(Solver.fizz_buzz(7)).to eq(7)
   end
   it 'should return 8 for 8' do
-    expect(Solver.FizzBuzz(8)).to eq(8)
+    expect(Solver.fizz_buzz(8)).to eq(8)
   end
   it 'should return Fizz for 9' do
-    expect(Solver.FizzBuzz(9)).to eq('Fizz')
+    expect(Solver.fizz_buzz(9)).to eq('Fizz')
   end
   it 'should return Buzz for 10' do
-    expect(Solver.FizzBuzz(10)).to eq('Buzz')
+    expect(Solver.fizz_buzz(10)).to eq('Buzz')
   end
   it 'should return Fizz for 12' do
-    expect(Solver.FizzBuzz(12)).to eq('Fizz')
+    expect(Solver.fizz_buzz(12)).to eq('Fizz')
   end
   it 'should return Buzz for 15' do
-    expect(Solver.FizzBuzz(15)).to eq('FizzBuzz')
+    expect(Solver.fizz_buzz(15)).to eq('FizzBuzz')
   end
   it 'should return Fizz for 18' do
-    expect(Solver.FizzBuzz(18)).to eq('Fizz')
+    expect(Solver.fizz_buzz(18)).to eq('Fizz')
   end
   it 'should return Buzz for 20' do
-    expect(Solver.FizzBuzz(20)).to eq('Buzz')
+    expect(Solver.fizz_buzz(20)).to eq('Buzz')
   end
   it 'should return Fizz for 21' do
-    expect(Solver.FizzBuzz(21)).to eq('Fizz')
+    expect(Solver.fizz_buzz(21)).to eq('Fizz')
   end
   it 'should return Buzz for 25' do
-    expect(Solver.FizzBuzz(25)).to eq('Buzz')
+    expect(Solver.fizz_buzz(25)).to eq('Buzz')
   end
   it 'should return Fizz for 27' do
-    expect(Solver.FizzBuzz(27)).to eq('Fizz')
+    expect(Solver.fizz_buzz(27)).to eq('Fizz')
   end
   it 'should return Buzz for 30' do
-    expect(Solver.FizzBuzz(30)).to eq('FizzBuzz')
+    expect(Solver.fizz_buzz(30)).to eq('FizzBuzz')
   end
   it 'should return Fizz for 33' do
-    expect(Solver.FizzBuzz(33)).to eq('Fizz')
+    expect(Solver.fizz_buzz(33)).to eq('Fizz')
   end
   it 'should return Buzz for 35' do
-    expect(Solver.FizzBuzz(35)).to eq('Buzz')
+    expect(Solver.fizz_buzz(35)).to eq('Buzz')
   end
   it 'should return Fizz for 36' do
-    expect(Solver.FizzBuzz(36)).to eq('Fizz')
+    expect(Solver.fizz_buzz(36)).to eq('Fizz')
   end
 end
